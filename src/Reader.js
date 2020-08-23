@@ -103,7 +103,7 @@ class Reader {
                   'n_hitcircles': buff.ReadInt16(),
                   'n_sliders': buff.ReadInt16(),
                   'n_spinners': buff.ReadInt16(),
-                  'last_modification_time': buff.ReadInt64()
+                  'last_modification_time': buff.ReadOsuDateTime()
                 }
 
                 if (osuver < 20140609) {
